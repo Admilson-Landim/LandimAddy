@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 
     $(window).load(function() {
-        $(".js-preloader").fadeOut(800, function() {
-            $(".js-main-container").fadeIn(800);
+        $(".js-preloader").fadeOut(80, function() {
+            $(".js-main-container").fadeIn(80);
 
             // setup_scrollreveal();
             setup_progress_bar_animation();
