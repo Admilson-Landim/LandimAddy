@@ -4,558 +4,696 @@
 
 <head>
 
-        <title> Landim Addy </title>
+    <title> Landim Addy </title>
 
-        <meta name="description" content="">
+    <meta name="description" content="">
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <!-- Google Font: Lato -->
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Google Font: Lato -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
 
-        <!-- FontAwesome -->
-        <link rel="stylesheet" href="assets/plugins/font-awesome/css/fontawesome.min.css">
-        <link rel="stylesheet" href="assets/plugins/font-awesome/css/brands.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/brands.min.css">
 
-        <!-- Main CSS -->
-        <link rel="stylesheet" href="assets/css/main.css">   <!-- principal estilo.... -->
-        
-        <!-- Themes -->
-        <!--<link rel="stylesheet" href="assets/css/themes.light.css">-->
-        <link rel="stylesheet" href="assets/css/themes.dark.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- principal estilo.... -->
 
-        <script src="assets/js/jquery.min.js"></script>
+    <!-- Themes -->
+    <!--<link rel="stylesheet" href="assets/css/themes.light.css">-->
+    <link rel="stylesheet" href="assets/css/themes.dark.css">
 
-        <!-- Main JS -->
-        <script src="assets/js/main.js"></script>
-        
-    </head>
+    <script src="assets/js/jquery.min.js"></script>
 
-    <body>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
 
-        <div class="c-preloader  js-preloader">
-            <div class="c-preloader__spinner  t-preloader__spinner"></div>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v9.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pt_PT/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=install_email page_id="100935978523124" theme_color="#fa3c4c"
+        logged_in_greeting="Ola... Como posso ajudar ???" logged_out_greeting="Ola... Como posso ajudar ???">
+    </div>
+
+
+    <div class="c-preloader  js-preloader">
+        <div class="c-preloader__spinner  t-preloader__spinner"></div>
+    </div>
+
+    <div class="c-main-container  js-main-container">
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v9.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/pt_PT/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat" attribution=install_email page_id="100935978523124" theme_color="#fa3c4c"
+            logged_in_greeting="Ola... Como posso ajudar ???" logged_out_greeting="Ola... Como posso ajudar ???">
         </div>
 
-        <div class="c-main-container  js-main-container">
+        <!-- -------------------- cabeça di pagina -------------------- -->
+        <section class="o-section o-section--header  t-section  t-section--header">
+            <div class="c-header">
 
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
 
-            <!-- -------------------- cabeça di pagina -------------------- --> 
-            <section class="o-section o-section--header  t-section  t-section--header">
-                <div class="c-header">
+                <div class="o-container">
+                    <div class="o-section__container">
 
-                    <div class="o-section__header-bg  t-section__header"></div>
-                    <div class="o-section__content-bg  t-section__content"></div>
+                        <header class="o-section__header  c-header__header  t-section__header">
+                            <div class="c-header__inner-header">
 
-                    <div class="o-container">
-                        <div class="o-section__container">
+                                <div class="c-header__avatar">
+                                    <div class="a-header  c-avatar">
+                                        <img class="c-avatar__img" src="assets/images/header/addy.jpg" alt="Landim">
+                                        <!-- <p> Landim Addy </p> -->
+                                    </div><!-- /c-avatar -->
 
-                            <header class="o-section__header  c-header__header  t-section__header">
-                                <div class="c-header__inner-header">
+                                </div><!-- /c-header-avatar -->
 
-                                    <div class="c-header__avatar">
-                                        <div class="a-header  c-avatar">
-                                            <img class="c-avatar__img" src="assets/images/header/addy.jpg" alt="Landim">
-                                            <!-- <p> Landim Addy </p> -->
-                                        </div><!-- /c-avatar -->
-                                        
-                                    </div><!-- /c-header-avatar -->
-                                    
-                                </div><!-- /c-header__inner-header --> 
-                            </header><!-- /o-section__header -->
+                            </div><!-- /c-header__inner-header -->
+                        </header><!-- /o-section__header -->
 
-                            <div class="o-section__content  c-header__content  t-section__content">
-                                <div class="c-header__inner-content">
+                        <div class="o-section__content  c-header__content  t-section__content">
+                            <div class="c-header__inner-content">
 
-                                    <div class="c-header__top">
+                                <div class="c-header__top">
 
-                                        <div class="c-header__brand">
+                                    <div class="c-header__brand">
 
-                                            <div class="c-brand">
-                                                <h1 class="c-brand__title  t-title">
-                                                    <span class="c-brand__sizer">
-                                                        <span class="a-header  c-brand__first-word  t-title__first-word">
-                                                            Admilson 
-                                                        </span>
-                                                        <span class="a-header  c-brand__second-word  t-title__second-word">
-                                                            Landim
-                                                        </span>
+                                        <div class="c-brand">
+                                            <h1 class="c-brand__title  t-title">
+                                                <span class="c-brand__sizer">
+                                                    <span class="a-header  c-brand__first-word  t-title__first-word">
+                                                        Admilson
                                                     </span>
-                                                </h1>
-                                                <h2 class="a-header  c-brand__sub-title  t-sub-title">
-                                                    <span class="c-brand__sizer">
-                                                        Desenvolvedor Website, Desktop e Mobile
+                                                    <span class="a-header  c-brand__second-word  t-title__second-word">
+                                                        Landim
                                                     </span>
-                                                </h2>
-                                            </div><!-- /c-brand -->
+                                                </span>
+                                            </h1>
+                                            <h2 class="a-header  c-brand__sub-title  t-sub-title">
+                                                <span class="c-brand__sizer">
+                                                    Desenvolvedor Website, Desktop e Mobile
+                                                </span>
+                                            </h2>
+                                        </div><!-- /c-brand -->
 
-                                        </div><!-- /c-header__brand -->
+                                    </div><!-- /c-header__brand -->
 
-                                        <ul class="c-header__social-buttons  c-social-buttons">
-                                            <li class="a-header">
-                                                <a href="https://www.facebook.com/addy.landim" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab  fa-lg  fa-facebook-f"> </i>
-                                                </a>
-                                            </li>
-                                            <li class="a-header">
-                                                <a href="https://www.instagram.com/landimaddy/" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li class="a-header">
-                                                <a href="https://www.linkedin.com/in/admilson-landim-95218b124/" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-linkedin-in"></i> 
-                                                </a>
-                                            </li>
-                                            <li class="a-header">
-                                                <a href="https://github.com/Admilson-Landim" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-github"></i>
-                                                </a>
-                                            </li>
-                                        </ul><!-- /c-header__social-buttons -->
+                                    <ul class="c-header__social-buttons  c-social-buttons">
+                                        <li class="a-header">
+                                            <a href="https://www.facebook.com/addy.landim" target="_blank"
+                                                class="c-social-button  t-social-button">
+                                                <i class="fab  fa-lg  fa-facebook-f"> </i>
+                                            </a>
+                                        </li>
+                                        <li class="a-header">
+                                            <a href="https://www.instagram.com/landimaddy/" target="_blank"
+                                                class="c-social-button  t-social-button">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="a-header">
+                                            <a href="https://www.linkedin.com/in/admilson-landim-95218b124/"
+                                                target="_blank" class="c-social-button  t-social-button">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                        <li class="a-header">
+                                            <a href="https://github.com/Admilson-Landim" target="_blank"
+                                                class="c-social-button  t-social-button">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                        </li>
+                                    </ul><!-- /c-header__social-buttons -->
 
-                                    </div><!-- /c-header__top -->
+                                </div><!-- /c-header__top -->
 
-                                    <div class="c-header__contact">
+                                <div class="c-header__contact">
 
-                                        <hr class="a-header  c-header__contact-divider" />
+                                    <hr class="a-header  c-header__contact-divider" />
 
-                                        <div class="o-grid">
+                                    <div class="o-grid">
 
-                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                                <div class="a-header  o-content">
-                                                    <div class="o-content__body">
-                                                        <h4 class="inicial_Azul">Localização</h4>
-                                                        <address>
-                                                            Cabo Verde, Praia
-                                                        </address>
-                                                    </div>
-                                                </div><!-- /o-content -->
-                                            </div><!-- /o-grid__col -->
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <h4 class="inicial_Azul">Localização</h4>
+                                                    <address>
+                                                        Cabo Verde, Praia
+                                                    </address>
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
 
-                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                                <div class="a-header  o-content">
-                                                    <div class="o-content__body">
-                                                        <h4 class="inicial_Azul"> Telefone </h4>
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <h4 class="inicial_Azul"> Telefone </h4>
+                                                    <p>
+                                                        9250776 / 5916449
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
+
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <a href="https://admilson-landim.github.io/LandimAddy/"
+                                                        target="_blank" class="t-link-container">
+                                                        <h4 class="inicial_Azul">Website </h4>
                                                         <p>
-                                                            9250776 / 5916449
+                                                            <span class="t-link-container__item--blended">
+                                                                Admilson Landim
+                                                            </span>
                                                         </p>
-                                                    </div>
-                                                </div><!-- /o-content -->
-                                            </div><!-- /o-grid__col -->
+                                                    </a><!-- /o-link-container -->
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
 
-                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                                <div class="a-header  o-content">
-                                                    <div class="o-content__body">
-                                                        <a href="https://admilson-landim.github.io/LandimAddy/" target="_blank" class="t-link-container">
-                                                            <h4 class="inicial_Azul">Website </h4>
-                                                            <p>
-                                                                <span class="t-link-container__item--blended">
-                                                                    Admilson Landim
-                                                                </span>
-                                                            </p>
-                                                        </a><!-- /o-link-container -->
-                                                    </div>
-                                                </div><!-- /o-content -->
-                                            </div><!-- /o-grid__col -->
+                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                            <div class="a-header  o-content">
+                                                <div class="o-content__body">
+                                                    <a href="#" target="_blank" class="t-link-container">
+                                                        <h4 class="inicial_Azul">Email</h4>
+                                                        <p>
+                                                            <span class="t-link-container__item--blended">
+                                                                ady.pina10@gmail.com
+                                                            </span>
+                                                        </p>
+                                                    </a><!-- /o-link-container -->
+                                                </div>
+                                            </div><!-- /o-content -->
+                                        </div><!-- /o-grid__col -->
 
-                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                                <div class="a-header  o-content">
-                                                    <div class="o-content__body">
-                                                        <a href="#" target="_blank" class="t-link-container">
-                                                            <h4 class="inicial_Azul">Email</h4>
-                                                            <p>
-                                                                <span class="t-link-container__item--blended">
-                                                                    ady.pina10@gmail.com
-                                                                </span>
-                                                            </p>
-                                                        </a><!-- /o-link-container -->
-                                                    </div>
-                                                </div><!-- /o-content -->
-                                            </div><!-- /o-grid__col -->
+                                    </div><!-- /o-grid -->
+                                </div><!-- /c-header__contact -->
 
-                                        </div><!-- /o-grid -->
-                                    </div><!-- /c-header__contact -->
+                            </div><!-- /c-header__inner-content -->
+                        </div><!-- /o-section__content -->
 
-                                </div><!-- /c-header__inner-content -->
-                            </div><!-- /o-section__content -->
+                    </div><!-- /o-section__container -->
 
-                        </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
 
-                    </div><!-- /o-container -->
-
-                </div><!-- /c-header -->
-            </section><!-- /o-section -->
+            </div><!-- /c-header -->
+        </section><!-- /o-section -->
 
 
-            <!-- -------------------- secon apresentacon -------------------- -->     
-            <section class="o-section  t-section  ">
+        <!-- -------------------- secon apresentacon -------------------- -->
+        <section class="o-section  t-section  ">
 
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
 
-                <div class="o-container">
-                    <div class="o-section__container">
+            <div class="o-container">
+                <div class="o-section__container">
 
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Apresentação
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Resumo sobre mim
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Apresentação
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Resumo sobre mim
+                            </div>
+                        </div>
+                    </header><!-- /o-section__header -->
+
+                    <div class="o-section__content  t-section__content  ">
+
+                        <div class="o-content">
+                            <div class="c-intro">
+                                <div class="o-content__body">
+                                    <p>
+                                        Nascido e criado em Calheta São Miguel (Achada Pizarra), passei por escola
+                                        secundária de São Miguel (ESSM), escola secundária Polivalente Cesaltina Ramos
+                                        (ESPCR) e
+                                        escola Secundária Pedro Gomes (ESPG), estudande de Engenharia Informatica e de
+                                        Computadores pela Universidade de Cabo Verde (UNICV).
+                                    </p>
+                                    <p>
+                                        Sou desenvolvedor web e aplicativos móvel, com experiencia em Play Framework e
+                                        Django para website. Android Studio e React para apps móvel.
+                                        Conhecimentos também em redes de computadores, centro de dados, base de dados
+                                        entre outros.
+
+                                    </p>
                                 </div>
                             </div>
-                        </header><!-- /o-section__header -->
+                        </div>
 
-                        <div class="o-section__content  t-section__content  ">
-                            
-                            <div class="o-content">
-                                <div class="c-intro">
-                                    <div class="o-content__body">
+                    </div><!-- /o-section__content -->
+
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
+
+        </section><!-- /o-section -->
+
+
+        <!-- -------------------- secon de ispecialidade ------------------- -->
+        <section class="o-section  t-section  ">
+
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="o-section__container">
+
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Especialidade
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Algumas habilidades desenvolvidos
+                            </div>
+                        </div>
+                    </header><!-- /o-section__header -->
+
+                    <div class="o-section__content  t-section__content  ">
+
+                        <div class="o-grid">
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            01
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul"> Desenvolvedor Web </h3>
                                         <p>
-                                            Nascido e criado em Calheta São Miguel (Achada Pizarra), passei por escola secundária de São Miguel (ESSM), escola secundária Polivalente Cesaltina Ramos (ESPCR) e
-                                            escola Secundária Pedro Gomes (ESPG), estudande de Engenharia Informatica e de Computadores pela Universidade de Cabo Verde (UNICV).
+                                            Como é de esperar, sou desenvolvedor de website, crio sites com basico
+                                            (HTML, CSS e JS).
+                                            Também possuo conhecimento de framework para desenvolver websites. (Django e
+                                            Play Framework).
                                         </p>
+                                    </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            02
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul">Redes de Computadores</h3>
                                         <p>
-                                            Sou desenvolvedor web e aplicativos móvel, com experiencia em Play Framework e Django para website. Android Studio e React para apps móvel.
-                                            Conhecimentos também em redes de computadores, centro de dados, base de dados entre outros.
-                                            
+                                            Planeamento de redes, configuração alguns dispositivos da rede (Routers,
+                                            Switch, Hub).
+                                            Configurei dispositivos virtual em ENSP e Cisco Packet Tracer.
                                         </p>
                                     </div>
-                                </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            03
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul"> Desenvolvedor Mobile </h3>
+                                        <p>
+                                            Tive contacto atravéz de Android Studio, numa das disciplina que conheci
+                                            durante a licenciatura, onde cheguei de criar apps com banco de dados local
+                                            e dados do servidor.
+                                            Também tive contacto com o react native.
+                                        </p>
+                                    </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            04
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul">Grafana - Dashboard</h3>
+                                        <p>
+                                            Durante o estagio, conheci o grafana para a criação de dashboard, com
+                                            diferente tipos de representação grafica de dados.
+                                            Com conexão de banco de dados remoto e na servidor local.
+                                        </p>
+                                    </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            05
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul">Java - Desktop</h3>
+                                        <p>
+                                            Ainda durante a licenciatura, estudei a programação orientado a objetos onde
+                                            conheci JAVA, criamos projectos com base em ficheito txt
+                                            e também criamo aplicação desktop realizando operação atravez de um base de
+                                            dados local.
+                                        </p>
+                                    </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-media  o-media--block  o-content">
+                                    <div class="o-media__figure">
+                                        <div class="c-number  t-primary-color">
+                                            06
+                                        </div>
+                                    </div>
+                                    <div class="o-media__body  o-content__body">
+                                        <h3 class="inicial_Azul">Git e GitHub</h3>
+                                        <p>
+                                            Comecei com Git ainda na licenciatura, durante estagio, cheguei de conhecer
+                                            a plataforma GitHub, e melhorei bastante
+                                            no processo de atualizar o repositoria e trazer atualizações realizados.
+                                        </p>
+                                    </div>
+                                </div><!-- /o-media o-content -->
+                            </div><!-- /o-grid__col -->
+
+                        </div><!-- /o-grid -->
+
+                    </div><!-- /o-section__content -->
+
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
+
+        </section><!-- /o-section -->
+
+
+
+        <!-- --------------------  secon de abilidadi -------------------- -->
+        <section class="o-section  t-section  ">
+
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="o-section__container">
+
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Habilidades
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Progresso de alguns habilidades desenvolvidos
                             </div>
+                        </div>
+                    </header><!-- /o-section__header -->
 
-                        </div><!-- /o-section__content -->
+                    <div class="o-section__content  t-section__content  ">
 
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
+                        <div class="o-grid">
 
-            </section><!-- /o-section -->
-
-
-            <!-- -------------------- secon de ispecialidade ------------------- -->
-            <section class="o-section  t-section  ">
-
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
-
-                <div class="o-container">
-                    <div class="o-section__container">
-
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Especialidade
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Algumas habilidades desenvolvidos
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                60<small>%</small>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body">
+                                            <h3>Git e GitHub</h3>
+                                        </div>
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="60"></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </header><!-- /o-section__header -->
+                            </div><!-- /o-grid__col -->
 
-                        <div class="o-section__content  t-section__content  ">
-                            
-                            <div class="o-grid">
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                01
+                                                50<small>%</small>
                                             </div>
                                         </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul"> Desenvolvedor Web </h3>
-                                            <p>
-                                                Como é de esperar, sou desenvolvedor de website, crio sites com basico (HTML, CSS e JS).
-                                                Também possuo conhecimento de framework para desenvolver websites. (Django  e Play Framework).
-                                            </p>
+                                        <div class="o-media__body">
+                                            <h3>Java</h3>
                                         </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                02
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul">Redes de Computadores</h3>
-                                            <p>
-                                                Planeamento de redes, configuração alguns dispositivos da rede (Routers, Switch, Hub).
-                                                Configurei dispositivos virtual em ENSP e Cisco Packet Tracer.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                03
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul"> Desenvolvedor Mobile </h3>
-                                            <p>
-                                                Tive contacto atravéz de Android Studio, numa das disciplina que conheci durante a licenciatura, onde cheguei de criar apps com banco de dados local e dados do  servidor.
-                                                Também tive contacto com o react native.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                04
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul">Grafana - Dashboard</h3>
-                                            <p>
-                                                Durante o estagio, conheci o grafana para a criação de dashboard, com diferente tipos de representação grafica de dados.
-                                                Com conexão de banco de dados remoto e na servidor local.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                05
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul">Java - Desktop</h3>
-                                            <p>
-                                                Ainda durante a licenciatura, estudei a programação orientado a objetos onde conheci JAVA, criamos projectos com base em ficheito txt 
-                                                e também criamo aplicação desktop realizando operação atravez de um base de dados local.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                06
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3 class="inicial_Azul">Git e GitHub</h3>
-                                            <p>
-                                                Comecei com Git ainda na licenciatura, durante estagio, cheguei de conhecer a plataforma GitHub, e melhorei bastante
-                                                no processo de atualizar o repositoria e trazer atualizações realizados.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
-
-                            </div><!-- /o-grid -->
-
-                        </div><!-- /o-section__content -->
-
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
-
-            </section><!-- /o-section -->
-
-
-
-            <!-- --------------------  secon de abilidadi -------------------- -->
-            <section class="o-section  t-section  ">
-
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
-
-                <div class="o-container">
-                    <div class="o-section__container">
-
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Habilidades
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Progresso de alguns habilidades desenvolvidos
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="50"></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </header><!-- /o-section__header -->
+                            </div><!-- /o-grid__col -->
 
-                        <div class="o-section__content  t-section__content  ">
-                            
-                            <div class="o-grid">
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    60<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>Git e GitHub</h3>
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                40<small>%</small>
                                             </div>
                                         </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="60"></div>
+                                        <div class="o-media__body">
+                                            <h3>Python</h3>
                                         </div>
                                     </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    50<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>Java</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="50"></div>
-                                        </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="40"></div>
                                     </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    40<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>Python</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="40"></div>
-                                        </div>
-                                    </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    45<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>JavaScript</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="45"></div>
-                                        </div>
-                                    </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    40<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>Android Studio</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="40"></div>
-                                        </div>
-                                    </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    70<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3>Grafana</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
-                                        </div>
-                                    </div>
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-media  o-media--block">
-                                            <div class="o-media__figure">
-                                                <div class="c-number  t-primary-color">
-                                                    60<small>%</small>
-                                                </div>
-                                            </div>
-                                            <div class="o-media__body">
-                                                <h3> Mysql e Sql</h3>
-                                            </div>
-                                        </div>
-                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="60"></div>
-                                        </div>
-                                    </div>
-                                </div><!-- /o-grid__col -->
-
-                            </div><!-- /o-grid -->
-
-                        </div><!-- /o-section__content -->
-
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
-
-            </section><!-- /o-section -->
-
-
-            <!-- -------------------- secon de xperiencia -------------------- -->
-            <section class="o-section  t-section  ">
-
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
-
-                <div class="o-container">
-                    <div class="o-section__container">
-
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Experiencia
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Algumas experiência profissional
                                 </div>
-                            </div>
-                        </header><!-- /o-section__header -->
+                            </div><!-- /o-grid__col -->
 
-                        <div class="o-section__content  t-section__content  u-pb-0">
-                            
-                            <div class="a-experience-timeline  c-timeline  t-border-color">
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                45<small>%</small>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body">
+                                            <h3>JavaScript</h3>
+                                        </div>
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="45"></div>
+                                    </div>
+                                </div>
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                40<small>%</small>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body">
+                                            <h3>Android Studio</h3>
+                                        </div>
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="40"></div>
+                                    </div>
+                                </div>
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                70<small>%</small>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body">
+                                            <h3>Grafana</h3>
+                                        </div>
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="70"></div>
+                                    </div>
+                                </div>
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-media  o-media--block">
+                                        <div class="o-media__figure">
+                                            <div class="c-number  t-primary-color">
+                                                60<small>%</small>
+                                            </div>
+                                        </div>
+                                        <div class="o-media__body">
+                                            <h3> Mysql e Sql</h3>
+                                        </div>
+                                    </div>
+                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
+                                            data-percent="60"></div>
+                                    </div>
+                                </div>
+                            </div><!-- /o-grid__col -->
+
+                        </div><!-- /o-grid -->
+
+                    </div><!-- /o-section__content -->
+
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
+
+        </section><!-- /o-section -->
+
+
+        <!-- -------------------- secon de xperiencia -------------------- -->
+        <section class="o-section  t-section  ">
+
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="o-section__container">
+
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Experiencia
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Algumas experiência profissional
+                            </div>
+                        </div>
+                    </header><!-- /o-section__header -->
+
+                    <div class="o-section__content  t-section__content  u-pb-0">
+
+                        <div class="a-experience-timeline  c-timeline  t-border-color">
+
+                            <div class="c-timeline__item">
+                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                <div class="o-content">
+                                    <div class="o-grid">
+                                        <div class="o-grid__col-md-5">
+                                            <div class="c-work__timeframe">
+                                                13 de Novembro de 2019 ----- 16 de julho de 2020
+                                            </div>
+                                            <h3 class="c-work__heading">
+                                                Estágio na Nosi Akademia
+                                            </h3>
+                                            <h4 class="c-work__title">
+                                                Desenvolvedor web
+                                            </h4>
+                                            <div class="c-work__location">
+                                                Cabo Verde, Praia
+                                            </div>
+                                        </div>
+                                        <div class="o-grid__col-md-7">
+                                            <p>
+                                                Oportunidade de juntar ao grupo de Smart Solutions para a continuação de
+                                                desenvolvimento de Gesáxi.
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-grid -->
+                                </div><!-- /o-content -->
+                            </div><!-- /c-timeline__item -->
+
+                        </div><!-- /c-timeline -->
+
+                    </div><!-- /o-section__content -->
+
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
+
+        </section><!-- /o-section -->
+
+
+        <!-- -------------------- secon de educacon -------------------- -->
+        <section class="o-section  t-section  ">
+
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="o-section__container">
+
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Educação
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Historial de educação
+                            </div>
+                        </div>
+                    </header><!-- /o-section__header -->
+
+                    <div class="o-section__content  t-section__content  u-pt-0">
+
+                        <div class="o-content">
+                            <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
+                                <div class="c-timeline__end  t-border-color"></div>
 
                                 <div class="c-timeline__item">
                                     <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
@@ -563,21 +701,108 @@
                                         <div class="o-grid">
                                             <div class="o-grid__col-md-5">
                                                 <div class="c-work__timeframe">
-                                                    13 de Novembro de 2019 ----- 16 de julho de 2020
+                                                    2007 &ndash; 2009
                                                 </div>
                                                 <h3 class="c-work__heading">
-                                                    Estágio na Nosi Akademia
+                                                    Escola Secundária São Miguel
                                                 </h3>
                                                 <h4 class="c-work__title">
-                                                    Desenvolvedor web
+                                                    Ensino secundária (7ª e 8º)
                                                 </h4>
                                                 <div class="c-work__location">
-                                                    Cabo Verde, Praia
+                                                    Cabo Verde, Santiago, Calheta
                                                 </div>
                                             </div>
                                             <div class="o-grid__col-md-7">
                                                 <p>
-                                                    Oportunidade de juntar ao grupo de Smart Solutions para a continuação de desenvolvimento de Gesáxi.
+                                                    Escola onde inicie a minha caminha academica no ensino secundária.
+                                                    Estudei num periodo de 2 ano.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    2009 &ndash; 2011
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Escola Secundária Polivalente Cesaltina Ramos
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Ensino secundária (9ª e 10º)
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Cabo Verde, Santiago, Praia - Achada Santo António
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Transferi de ESSM para escola Tecnica, onde estudei também num
+                                                    periodo de 2 ano.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    2011 &ndash; 2013
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Escola Secundária Pedro Gomes
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Ensino secundária (11ª e 12º)
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Cabo Verde, Santiago, Praia - Achada Santo António
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Onde terminei a minha caminhada no ensimo secundária.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /c-timeline__item -->
+
+                                <div class="c-timeline__item">
+                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                    <div class="o-content">
+                                        <div class="o-grid">
+                                            <div class="o-grid__col-md-5">
+                                                <div class="c-work__timeframe">
+                                                    2013 &ndash; Goci
+                                                </div>
+                                                <h3 class="c-work__heading">
+                                                    Universidade de Cabo Verde
+                                                </h3>
+                                                <h4 class="c-work__title">
+                                                    Engenharia Informatica e de Computadores
+                                                </h4>
+                                                <div class="c-work__location">
+                                                    Cabo Verde, Santiago, Praia - Palmarejo
+                                                </div>
+                                            </div>
+                                            <div class="o-grid__col-md-7">
+                                                <p>
+                                                    Aprendi a programar em diferente linguagem de programação e
+                                                    desenvolver habilidades, tais como configuração de dispositivos de
+                                                    rede, conhecimento de centro de dados,
+                                                    desenvolvimento mobile, instalação de conhecimento de diferentes
+                                                    sistemas operativos entre outros.
                                                 </p>
                                             </div>
                                         </div><!-- /o-grid -->
@@ -585,367 +810,234 @@
                                 </div><!-- /c-timeline__item -->
 
                             </div><!-- /c-timeline -->
+                        </div><!-- /o-content -->
 
-                        </div><!-- /o-section__content -->
+                    </div><!-- /o-section__content -->
 
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
 
-            </section><!-- /o-section -->
+        </section><!-- /o-section -->
 
 
-            <!-- -------------------- secon de educacon -------------------- -->
-            <section class="o-section  t-section  ">
+        <!-- -------------------- seçon de perfil -------------------- -->
+        <section class="o-section  t-section  ">
 
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
 
-                <div class="o-container">
-                    <div class="o-section__container">
+            <div class="o-container">
+                <div class="o-section__container">
 
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Educação
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Historial de educação
-                                </div>
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Profils
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Alguns perfils mais utilizados
                             </div>
-                        </header><!-- /o-section__header -->
+                        </div>
+                    </header><!-- /o-section__header -->
 
-                        <div class="o-section__content  t-section__content  u-pt-0">
-                            
-                            <div class="o-content">
-                                <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
-                                    <div class="c-timeline__end  t-border-color"></div>
+                    <div class="o-section__content  t-section__content  ">
 
-                                    <div class="c-timeline__item">
-                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                        <div class="o-content">
-                                            <div class="o-grid">
-                                                <div class="o-grid__col-md-5">
-                                                    <div class="c-work__timeframe">
-                                                        2007 &ndash; 2009
-                                                    </div>
-                                                    <h3 class="c-work__heading">
-                                                        Escola Secundária São Miguel
-                                                    </h3>
-                                                    <h4 class="c-work__title">
-                                                        Ensino secundária (7ª e 8º)
-                                                    </h4>
-                                                    <div class="c-work__location">
-                                                        Cabo Verde, Santiago, Calheta
-                                                    </div>
+                        <div class="o-grid">
+
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://sourceforge.net/u/landimaddy/profile" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="fab fa-sourcetree"></i>
                                                 </div>
-                                                <div class="o-grid__col-md-7">
-                                                    <p>
-                                                        Escola onde inicie a minha caminha academica no ensino secundária. Estudei num periodo de 2 ano.
-                                                    </p>
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    SourceForge
+                                                </h3>
+                                                <p>
+                                                    Para conferir algumas programas de código aberto.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://github.com/Admilson-Landim" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="fab  fa-lg  fa-github-alt"></i>
                                                 </div>
-                                            </div><!-- /o-grid -->
-                                        </div><!-- /o-content -->
-                                    </div><!-- /c-timeline__item -->
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    GitHub
+                                                </h3>
+                                                <p>
+                                                    Partilhar codigos entre programadores e utlizar repositorio para
+                                                    guardar alguns projectos.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
 
-                                    <div class="c-timeline__item">
-                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                        <div class="o-content">
-                                            <div class="o-grid">
-                                                <div class="o-grid__col-md-5">
-                                                    <div class="c-work__timeframe">
-                                                        2009 &ndash; 2011
-                                                    </div>
-                                                    <h3 class="c-work__heading">
-                                                        Escola Secundária Polivalente Cesaltina Ramos
-                                                    </h3>
-                                                    <h4 class="c-work__title">
-                                                        Ensino secundária (9ª e 10º)
-                                                    </h4>
-                                                    <div class="c-work__location">
-                                                        Cabo Verde, Santiago, Praia - Achada Santo António
-                                                    </div>
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://connect.topcoder.com/settings/profile" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="far fa-file-code"></i>
                                                 </div>
-                                                <div class="o-grid__col-md-7">
-                                                    <p>
-                                                        Transferi de ESSM para escola Tecnica, onde estudei também num periodo de 2 ano. 
-                                                    </p>
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    Topcoder
+                                                </h3>
+                                                <p>
+                                                    Para participar de competição de algoritmos, desenvolvimento front e
+                                                    back-end, entre outros tipos de projetos.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://www.facebook.com/addy.landim" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="fab fa-facebook-f"></i>
                                                 </div>
-                                            </div><!-- /o-grid -->
-                                        </div><!-- /o-content -->
-                                    </div><!-- /c-timeline__item -->
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    Facebook
+                                                </h3>
+                                                <p>
+                                                    Seguir algums programadore e fazer conexão com a familia e diferente
+                                                    grupo social.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
 
-                                    <div class="c-timeline__item">
-                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                        <div class="o-content">
-                                            <div class="o-grid">
-                                                <div class="o-grid__col-md-5">
-                                                    <div class="c-work__timeframe">
-                                                        2011 &ndash; 2013
-                                                    </div>
-                                                    <h3 class="c-work__heading">
-                                                        Escola Secundária Pedro Gomes
-                                                    </h3>
-                                                    <h4 class="c-work__title">
-                                                        Ensino secundária (11ª e 12º)
-                                                    </h4>
-                                                    <div class="c-work__location">
-                                                        Cabo Verde, Santiago, Praia - Achada Santo António
-                                                    </div>
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://www.instagram.com/landimaddy/" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
-                                                <div class="o-grid__col-md-7">
-                                                    <p>
-                                                        Onde terminei a minha caminhada no ensimo secundária. 
-                                                    </p>
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    Instagram
+                                                </h3>
+                                                <p>
+                                                    Seguir algumas canais de programação e programadore.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
+
+                            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <a href="https://www.linkedin.com/in/admilson-landim-95218b124/" target="_blank"
+                                        class="t-link-container">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-profile__icon">
+                                                    <i class="fab fa-linkedin"></i>
                                                 </div>
-                                            </div><!-- /o-grid -->
-                                        </div><!-- /o-content -->
-                                    </div><!-- /c-timeline__item -->
+                                            </div>
+                                            <div class="o-media__body  o-content__body">
+                                                <h3 class="t-link-container__item">
+                                                    Linkedin
+                                                </h3>
+                                                <p>
+                                                    Fazer parcerias e networking.
+                                                </p>
+                                            </div>
+                                        </div><!-- /o-media -->
+                                    </a><!-- /t-link-container -->
+                                </div><!-- /o-content -->
+                            </div><!-- /o-grid__col -->
 
-                                    <div class="c-timeline__item">
-                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                        <div class="o-content">
-                                            <div class="o-grid">
-                                                <div class="o-grid__col-md-5">
-                                                    <div class="c-work__timeframe">
-                                                        2013 &ndash; Goci
-                                                    </div>
-                                                    <h3 class="c-work__heading">
-                                                        Universidade de Cabo Verde
-                                                    </h3>
-                                                    <h4 class="c-work__title">
-                                                        Engenharia Informatica e de Computadores
-                                                    </h4>
-                                                    <div class="c-work__location">
-                                                        Cabo Verde, Santiago, Praia - Palmarejo
-                                                    </div>
-                                                </div>
-                                                <div class="o-grid__col-md-7">
-                                                    <p>
-                                                        Aprendi a programar em diferente linguagem de programação e desenvolver habilidades, tais como configuração de dispositivos de rede, conhecimento de centro de dados, 
-                                                        desenvolvimento mobile, instalação de conhecimento de diferentes sistemas operativos entre outros.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-grid -->
-                                        </div><!-- /o-content -->
-                                    </div><!-- /c-timeline__item -->
+                        </div><!-- /o-grid -->
 
-                                </div><!-- /c-timeline -->
-                            </div><!-- /o-content -->
+                    </div><!-- /o-section__content -->
 
-                        </div><!-- /o-section__content -->
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
 
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
-
-            </section><!-- /o-section -->
+        </section><!-- /o-section -->
 
 
-            <!-- -------------------- seçon de perfil -------------------- -->
-            <section class="o-section  t-section  ">
+        <!-- -------------------- seson de trabalhos desenvolvidos -------------------- -->
+        <section class="o-section  t-section  ">
 
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
 
-                <div class="o-container">
-                    <div class="o-section__container">
+            <div class="o-container">
+                <div class="o-section__container">
 
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Profils
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Alguns perfils mais utilizados
-                                </div>
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Portfolio
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Alguns trabalhos desenvolvido.
                             </div>
-                        </header><!-- /o-section__header -->
+                        </div>
+                    </header><!-- /o-section__header -->
 
-                        <div class="o-section__content  t-section__content  ">
-                            
-                            <div class="o-grid">
+                    <div class="o-section__content  t-section__content  o-section__full-bottom-space">
 
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://sourceforge.net/u/landimaddy/profile" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="fab fa-sourcetree"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item" >
-                                                        SourceForge
-                                                    </h3>
-                                                    <p>
-                                                        Para conferir algumas programas de código aberto.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
+                        <div class="o-grid  o-grid--gallery">
 
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://github.com/Admilson-Landim" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="fab  fa-lg  fa-github-alt"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item">
-                                                        GitHub
-                                                    </h3>
-                                                    <p>
-                                                        Partilhar codigos entre programadores e utlizar repositorio para guardar alguns projectos.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
+                            <div class="o-grid__col-sm-6">
+                                <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                                    href="https://admilson-landim.github.io/TiagoBlog/." data-lightbox-hidpi=""
+                                    title="New York, New York" data-lightbox-gallery="portfolio">
+                                    <img src="assets/images/portfolio/thiagoBlog.PNG" alt="">
+                                    <div class="c-image-overlay__content">
+                                        <h3>
+                                            Blog do meu sobrinho
+                                        </h3>
+                                        <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line" />
+                                        <p>
+                                            Todas as informação relevantes do meu subrinho encontrase disponivel no
+                                            site.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div><!-- /o-grid__col -->
 
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://connect.topcoder.com/settings/profile" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="far fa-file-code"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item">
-                                                        Topcoder
-                                                    </h3>
-                                                    <p>
-                                                        Para participar de competição de algoritmos, desenvolvimento front e back-end, entre outros tipos de projetos. 
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://www.facebook.com/addy.landim" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="fab fa-facebook-f"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item">
-                                                        Facebook
-                                                    </h3>
-                                                    <p>
-                                                        Seguir algums programadore e fazer conexão com a familia  e diferente grupo social.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://www.instagram.com/landimaddy/" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="fab fa-instagram"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item">
-                                                        Instagram
-                                                    </h3>
-                                                    <p>
-                                                        Seguir algumas canais de programação e programadore.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <a href="https://www.linkedin.com/in/admilson-landim-95218b124/" target="_blank" class="t-link-container">
-                                            <div class="o-media  o-media--block">
-                                                <div class="o-media__figure">
-                                                    <div class="c-profile__icon">
-                                                        <i class="fab fa-linkedin"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="o-media__body  o-content__body">
-                                                    <h3 class="t-link-container__item">
-                                                        Linkedin
-                                                    </h3>
-                                                    <p>
-                                                        Fazer parcerias e networking.
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-media -->
-                                        </a><!-- /t-link-container -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                            </div><!-- /o-grid -->
-
-                        </div><!-- /o-section__content -->
-
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
-
-            </section><!-- /o-section -->
-
-
-            <!-- -------------------- seson de trabalhos desenvolvidos -------------------- -->
-            <section class="o-section  t-section  ">
-
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
-
-                <div class="o-container">
-                    <div class="o-section__container">
-
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Portfolio
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Alguns trabalhos desenvolvido.
-                                </div>
-                            </div>
-                        </header><!-- /o-section__header -->
-
-                        <div class="o-section__content  t-section__content  o-section__full-bottom-space">
-                            
-                            <div class="o-grid  o-grid--gallery">
-
-                                <div class="o-grid__col-sm-6">
-                                    <a class="c-image-overlay  t-image-overlay  js-lightbox" href="https://admilson-landim.github.io/TiagoBlog/." data-lightbox-hidpi="" title="New York, New York" data-lightbox-gallery="portfolio">
-                                        <img src="assets/images/portfolio/thiagoBlog.PNG" alt="">
-                                        <div class="c-image-overlay__content">
-                                            <h3>
-                                                Blog do meu sobrinho
-                                            </h3>
-                                            <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line" />
-                                            <p>
-                                                Todas as informação relevantes do meu subrinho encontrase disponivel no site.
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div><!-- /o-grid__col -->
-
-                                <!-- 
+                            <!-- 
                                 <div class="o-grid__col-sm-6">
                                     <a class="c-image-overlay  t-image-overlay  js-lightbox" href="assets/images/portfolio/thiagoBlog.PNG" data-lightbox-hidpi="" title="Sky High" data-lightbox-gallery="portfolio">
                                         <img src="assets/images/portfolio/thiagoBlog.PNG" alt="">
@@ -959,116 +1051,118 @@
                                             </p>
                                         </div>
                                     </a>
-                                </div> --> <!-- /o-grid__col -->
+                                </div> -->
+                            <!-- /o-grid__col -->
 
 
+
+                        </div><!-- /o-grid -->
+
+                    </div><!-- /o-section__content -->
+
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
+
+        </section><!-- /o-section -->
+
+
+        <!-- -------------------- FOOTER -------------------- -->
+        <section class="o-section  t-section  o-section--footer">
+
+            <div class="o-section__header-bg  t-section__header"></div>
+            <div class="o-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="o-section__container">
+
+                    <header class="o-section__header  t-section__header">
+                        <div class="o-content">
+                            <h2 class="o-section__heading">
+                                Contacto
+                            </h2>
+                            <div class="o-content__body  o-section__description">
+                                Meus contactos e endereços
+                            </div>
+                        </div>
+                    </header><!-- /o-section__header -->
+
+                    <div class="o-section__content  t-section__content  ">
+
+                        <div class="c-footer__contact">
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-content__body">
+                                            <h4 class="inicial_Azul">Localização</h4>
+                                            <address>
+                                                Cabo Verde, Praia
+                                            </address>
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-content__body">
+                                            <h4 class="inicial_Azul">Telefone</h4>
+                                            <p>
+                                                9250776 / 5916449
+                                            </p>
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-content__body">
+                                            <a href="https://admilson-landim.github.io/LandimAddy/" target="_blank"
+                                                class="t-link-container">
+                                                <h4 class="inicial_Azul">Website</h4>
+                                                <p>
+                                                    <span class="t-link-container__item--blended">
+                                                        Admilson Landim
+                                                    </span>
+                                                </p>
+                                            </a><!-- /o-link-container -->
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-content__body">
+                                            <a href="#" target="_blank" class="t-link-container">
+                                                <h4 class="inicial_Azul">Email</h4>
+                                                <p>
+                                                    <span class="t-link-container__item--blended">
+                                                        ady.pina10@gmail.com
+                                                    </span>
+                                                </p>
+                                            </a><!-- /o-link-container -->
+                                        </div>
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
 
                             </div><!-- /o-grid -->
+                        </div><!-- /c-footer__contact -->
 
-                        </div><!-- /o-section__content -->
+                        <hr class="c-footer__contact-divider" />
 
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
+                        <div class="o-content">
+                            <div class="c-footer__bottom">
+                                <div class="c-footer__brand">
 
-            </section><!-- /o-section -->
-
-
-            <!-- -------------------- FOOTER -------------------- -->
-            <section class="o-section  t-section  o-section--footer">
-
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
-
-                <div class="o-container">
-                    <div class="o-section__container">
-
-                        <header class="o-section__header  t-section__header">
-                            <div class="o-content">
-                                <h2 class="o-section__heading">
-                                    Contacto
-                                </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Meus contactos e endereços
-                                </div>
-                            </div>
-                        </header><!-- /o-section__header -->
-
-                        <div class="o-section__content  t-section__content  ">
-                            
-                                <div class="c-footer__contact">
-                                    <div class="o-grid">
-
-                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                        <div class="o-content">
-                                            <div class="o-content__body">
-                                                <h4 class="inicial_Azul">Localização</h4>
-                                                <address>
-                                                    Cabo Verde, Praia
-                                                </address>
-                                            </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-
-                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                        <div class="o-content">
-                                            <div class="o-content__body">
-                                                <h4 class="inicial_Azul">Telefone</h4>
-                                                <p>
-                                                    9250776 / 5916449
-                                                </p>
-                                            </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-
-                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                        <div class="o-content">
-                                            <div class="o-content__body">
-                                                <a href="https://admilson-landim.github.io/LandimAddy/" target="_blank" class="t-link-container">
-                                                    <h4 class="inicial_Azul">Website</h4>
-                                                    <p>
-                                                        <span class="t-link-container__item--blended">
-                                                            Admilson Landim
-                                                        </span>
-                                                    </p>
-                                                </a><!-- /o-link-container -->
-                                            </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-
-                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                        <div class="o-content">
-                                            <div class="o-content__body">
-                                                <a href="#" target="_blank" class="t-link-container">
-                                                    <h4 class="inicial_Azul">Email</h4>
-                                                    <p>
-                                                        <span class="t-link-container__item--blended">
-                                                            ady.pina10@gmail.com 
-                                                        </span>
-                                                    </p>
-                                                </a><!-- /o-link-container -->
-                                            </div>
-                                        </div><!-- /o-content -->
-                                    </div><!-- /o-grid__col -->
-
-                                </div><!-- /o-grid -->
-                                </div><!-- /c-footer__contact -->
-
-                                <hr class="c-footer__contact-divider" />
-
-                                <div class="o-content">
-                                    <div class="c-footer__bottom">
-                                        <div class="c-footer__brand">
-
-                                            <div class="c-brand">
-                                                <div class="o-content__body">
-                                                    <p> Copyright ©
-                                                        <script type="text/javascript">
-                                                            var d = new Date()
-                                                            document.write(d.getFullYear());
-                                                        </script>
-                                                        Admilson Landim. Tudu Direitu Reservadu.
-                                                    </p>
-                                                    <!-- <h1 class="c-brand__title  t-title">
+                                    <div class="c-brand">
+                                        <div class="o-content__body">
+                                            <p> Copyright ©
+                                                <script type="text/javascript">
+                                                    var d = new Date()
+                                                    document.write(d.getFullYear());
+                                                </script>
+                                                Admilson Landim. Tudu Direitu Reservadu.
+                                            </p>
+                                            <!-- <h1 class="c-brand__title  t-title">
                                                         <span class="c-brand__sizer  c-brand__sizer--sm">
                                                             <span class="a-footer  c-brand__first-word  t-title__first-word">
                                                                 Admilson
@@ -1078,48 +1172,53 @@
                                                             </span>
                                                         </span>
                                                     </h1> -->
-                                                </div><!-- /o-content__body -->
-                                            </div><!-- /c-brand -->
+                                        </div><!-- /o-content__body -->
+                                    </div><!-- /c-brand -->
 
-                                        </div><!-- /c-footer__brand -->
+                                </div><!-- /c-footer__brand -->
 
-                                        <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
-                                            <li class="a-footer">
-                                                <a href="https://www.facebook.com/addy.landim" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab  fa-lg  fa-facebook-f"> </i>
-                                                </a>
-                                            </li>
-                                            <li class="a-footer">
-                                                <a href="https://www.instagram.com/landimaddy/" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li class="a-footer">
-                                                <a href="https://www.linkedin.com/in/admilson-landim-95218b124/" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-linkedin-in"></i> 
-                                                </a>
-                                            </li>
-                                            <li class="a-footer">
-                                                <a href="https://github.com/Admilson-Landim" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fab fa-github"></i>
-                                                </a>
-                                            </li>
-                                        </ul><!-- /c-footer__social-buttons -->
+                                <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
+                                    <li class="a-footer">
+                                        <a href="https://www.facebook.com/addy.landim" target="_blank"
+                                            class="c-social-button  t-social-button">
+                                            <i class="fab  fa-lg  fa-facebook-f"> </i>
+                                        </a>
+                                    </li>
+                                    <li class="a-footer">
+                                        <a href="https://www.instagram.com/landimaddy/" target="_blank"
+                                            class="c-social-button  t-social-button">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="a-footer">
+                                        <a href="https://www.linkedin.com/in/admilson-landim-95218b124/" target="_blank"
+                                            class="c-social-button  t-social-button">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="a-footer">
+                                        <a href="https://github.com/Admilson-Landim" target="_blank"
+                                            class="c-social-button  t-social-button">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul><!-- /c-footer__social-buttons -->
 
-                                    </div><!-- /c-footer__bottom -->
-                                </div><!-- /o-content -->
+                            </div><!-- /c-footer__bottom -->
+                        </div><!-- /o-content -->
 
-                        </div><!-- /o-section__content -->
+                    </div><!-- /o-section__content -->
 
-                    </div><!-- /o-section__container -->
-                </div><!-- /o-container -->
+                </div><!-- /o-section__container -->
+            </div><!-- /o-container -->
 
-            </section><!-- /o-section -->
+        </section><!-- /o-section -->
 
 
-        </div><!-- /c-main-container -->
+    </div><!-- /c-main-container -->
 
-    </body>
+
+</body>
 
 
 </html>
