@@ -7,6 +7,10 @@ body {
   color: #979899;
 }
 
+.inicial_Azul {
+  color: #5412ee;
+}
+
 /* Heading */
 h1,
 h2,
@@ -37,7 +41,7 @@ h6 {
 a,
 .t-link-container .t-link-container__item,
 .t-link-container:hover .t-link-container__item--blended {
-  color: #e0a80d;
+  color: #5412ee;
 }
 
 /* Hover Links */
@@ -82,7 +86,7 @@ hr,
 }
 
 .t-title__second-word {
-  color: #e0a80d;
+  color: #4007c4;
 }
 
 .t-sub-title {
