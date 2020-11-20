@@ -3,20 +3,23 @@
 
 $(document).ready(function() {
 
+    // setup_progress_bar_animation();
+
     $('html').addClass('js-enabled');
 
     // setup_nivo_lightbox();
     // setup_dense();
 
+    setup_progress_bar_animation();
 
-    $(window).load(function() {
-        $(".js-preloader").fadeOut(80, function() {
-            $(".js-main-container").fadeIn(80);
+    // $(window).load(function() {
+    //     $(".js-preloader").fadeOut(80, function() {
+    //         $(".js-main-container").fadeIn(80);
 
-            // setup_scrollreveal();
-            setup_progress_bar_animation();
-        });
-    });
+    //         // setup_scrollreveal();
+    //         setup_progress_bar_animation();
+    //     });
+    // });
 
 });
 
