@@ -13,7 +13,7 @@ $(document).ready(function() {
         $(".js-preloader").fadeOut(800, function() {
             $(".js-main-container").fadeIn(800);
 
-            // setup_scrollreveal();
+            setup_scrollreveal();
             setup_progress_bar_animation();
         });
     });
@@ -89,7 +89,7 @@ function setup_scrollreveal()
         };
         var header_config = $.extend(false, default_config, {
             duration: 1200,
-            delay: 700
+            delay: 70
         });
         var footer_config = $.extend(false, default_config, {
             duration: 1500,
@@ -97,7 +97,7 @@ function setup_scrollreveal()
             viewOffset: {top: 0, right: 0, bottom: 100, left: 0}
         });
 
-        var default_delay = 175;
+        var default_delay = 15;
 
         sr.reveal('.a-header', header_config, default_delay);
         sr.reveal('.a-footer', footer_config, default_delay);
