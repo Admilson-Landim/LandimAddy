@@ -39,6 +39,11 @@ body {
   font-family: 'Nosifer', cursive;
 }
 
+.boton {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -53,7 +58,7 @@ body {
 }
 
 .baixo_avatar {
-  padding-top: 10px;
+  padding-top: 15px;
   color: #ffffff;
   font-weight: 700;
   font-family: 'Bungee', cursive;
