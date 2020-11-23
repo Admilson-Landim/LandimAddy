@@ -33,9 +33,14 @@ body {
   padding-top: -60px;
 }
 
+.moni{
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Nosifer', cursive;
+}
+
 .btn {
   position: relative;
-  
   display: inline-block;
   color: #fff;
   margin-top: 20px;
@@ -48,6 +53,7 @@ body {
 }
 
 .baixo_avatar {
+  padding-top: 10px;
   color: #ffffff;
   font-weight: 700;
   font-family: 'Bungee', cursive;
