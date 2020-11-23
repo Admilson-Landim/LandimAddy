@@ -1911,7 +1911,7 @@ img[height] {
   }
   .c-header__avatar {
     margin-top: -5.8rem;
-    text-align: right;
+    text-align: center;
     position: relative;
   }
   /* IE11 hack */
