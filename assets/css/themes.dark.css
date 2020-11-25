@@ -7,16 +7,11 @@ body {
   color: #979899;
 }
 
-
-.espaco {
-  padding-bottom: 10px;
-}
-
 .inicial_Azul {
   color: #ffffff;
 }
 
-.hello{
+.hello {
   text-align: center;
   padding-top: 100px;
   font-family: 'Bungee', cursive;
