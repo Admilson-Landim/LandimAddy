@@ -31,13 +31,14 @@ body {
   width: 10rem;
 }
 
-.keli {
-  text-align: center;
+.rcp {
+  width: 10rem;
+  height: 10rem;
 }
 
 .hello {
-  /* text-align: center; */
-  padding-top: 1px;
+  text-align: center;
+  padding-top: 10px;
   font-family: 'Bungee', cursive;
 }
 
