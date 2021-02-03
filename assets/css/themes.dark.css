@@ -11,9 +11,33 @@ body {
   color: #fffffff8;
 }
 
-.hello {
+.direita {
+  padding-top: 0px;
+  border-radius: 10%;
+  width: 10rem;
+  height: 15rem;
+}
+
+.esquerda {
+  padding-top: 0px;
+  border-radius: 10%;
+  width: 10rem;
+  height: 15rem;
+}
+
+.meio {
+  padding-top: 0px;
+  border-radius: 10%;
+  width: 10rem;
+}
+
+.keli {
   text-align: center;
-  padding-top: 100px;
+}
+
+.hello {
+  /* text-align: center; */
+  padding-top: 1px;
   font-family: 'Bungee', cursive;
 }
 
@@ -29,7 +53,7 @@ body {
 }
 
 .some_info{
-  padding-top: -60px;
+  padding-top: -80px;
 }
 
 .moni{
